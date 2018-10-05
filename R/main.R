@@ -8,7 +8,7 @@ launchApp <- function(port=8000) {
   url <- system.file("dist", "index.html", package="react")
   browseURL(url)
 
-  r <- plumb("./R/functions.R")
+  r <- plumb(funcs)
   ## launch rserve and listen for requests
   r$run(port=port)
 
