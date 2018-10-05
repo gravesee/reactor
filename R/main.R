@@ -3,7 +3,7 @@ library(plumber)
 #' @export
 launchApp <- function(port=8000) {
 
-  funcs <- system.file("R", "functions.R", package = "react")
+  funcs <- system.file("api", "functions.R", package = "react")
 
   url <- system.file("dist", "index.html", package="react")
   browseURL(url)
