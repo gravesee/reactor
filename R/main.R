@@ -1,3 +1,6 @@
+#' @import plumber
+NULL
+
 library(plumber)
 
 #' @export
