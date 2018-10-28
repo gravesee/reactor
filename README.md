@@ -15,6 +15,8 @@ To build the application:
 
 To test the application can be launched from R, run `launchAppDev()`.
 
+Or, from the command line at the toplevel of Reactor, run: `R -e "library(reactor); launchAppDev()"`
+
 This will copy the `index.html` and bundled javascript to the `inst/api` folder.
 
 The annotated `plumber` functions from `functions.R` will be copied to `inst/api`.
